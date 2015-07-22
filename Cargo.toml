@@ -1,9 +1,11 @@
 [package]
 name = "blake2-bench"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Cesar Eduardo Barros <cesarb@cesarb.eti.br>"]
 
 [dependencies]
 blake2-rfc = "0.2.0"
+libb2-sys = { git = "https://github.com/cesarb/libb2-sys.git" }
+libc = "0.1.8"
 rust-blake2 = { git = "https://github.com/ebfe/rust-blake2.git" }
 rust-crypto = "0.2.31"
